@@ -1,6 +1,6 @@
 import { createSlice,createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-const url="https://e-coomercebackend.onrender.com/"
+const url="https://e-coomercebackend.onrender.com"
 
 
 export const CreateCart=createAsyncThunk('/user/create/cart',async({token,payload})=>{

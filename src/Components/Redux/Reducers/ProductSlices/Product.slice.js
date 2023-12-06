@@ -1,6 +1,6 @@
 import { createSlice,createAsyncThunk, createAction } from '@reduxjs/toolkit';
 import axios from 'axios';
-const url="https://e-coomercebackend.onrender.com/"
+const url="https://e-coomercebackend.onrender.com"
 
 
 export const getAllProducts=createAsyncThunk("/get/AllProduct",async({search,page,minPrice,maxPrice,ratings,filter},thunkApi)=>{
